@@ -27,9 +27,13 @@ function onConnectionLost(responseObject) {
     }
 }
 function tiskni() {
+    console.log("")
+    message = new Paho.MQTT.Message("test");
+            message.destinationName = "/in/queue/print";
+            client.send(message);
     document.getElementsByClassName("button").innerHTML = "";
   }
-  
+
   /* 
 
 function onMessageArrived(message) {
