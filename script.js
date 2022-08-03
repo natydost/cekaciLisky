@@ -5,7 +5,7 @@ let client = new Paho.MQTT.Client(
 )
 document.getElementById("demo").innerHTML = client;
 
-client = new Paho.MQTT.Client("d57a0d1c39d54550b147b58411d86743.s2.eu.hivemq.cloud", 8884, "tablecontrol");
+client = new Paho.MQTT.Client("d57a0d1c39d54550b147b58411d86743.s2.eu.hivemq.cloud", 8884, 'letni-skola' + Math.random())
 
 client.onConnectionLost = onConnectionLost;
 client.onMessageArrived = onMessageArrived;
