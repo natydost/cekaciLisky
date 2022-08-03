@@ -26,6 +26,10 @@ function onConnectionLost(responseObject) {
         console.log("onConnectionLost:" + responseObject.errorMessage);
     }
 }
+function tiskni() {
+    document.getElementsByClassName("button").innerHTML = "";
+  }
+  
   /* 
 
 function onMessageArrived(message) {
