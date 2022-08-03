@@ -18,7 +18,6 @@ client.connect({
 
 
 function onConnect() {
-    
     console.log("onConnect");
     client.subscribe("/in/queue/count/#");
 }
