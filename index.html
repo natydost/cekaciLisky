@@ -14,27 +14,16 @@
 
 <header class="hlavicka">  <h1>VYBERTE POŽADOVANOU SLUŽBU</h1> </header>
 
-<button onclick="vyzvedni()" class="buttonA">vyzvednutí zásilky</button>
-<button onclick="odesli()" class="buttonB">odeslat zásilku</button>
-<button onclick="ostatni()" class="buttonC">ostatní služby</button>
+<button onclick="tiskni()" class="button">vyzvednutí zásilky</button>
+<button onclick="tiskni()" class="button">odeslat zásilku</button>
+<button onclick="tiskni()" class="button">ostatní služby</button>
 
 <script>
-    function vyzvedni() {
-      document.getElementsByClassName("buttonA").innerHTML = "Hello World";
+    function tiskni() {
+      document.getElementsByClassName("button").innerHTML = "Hello World";
     }
     </script>
 
-<script>
-    function odesli() {
-      document.getElementsByClassName("buttonB").innerHTML = "Hello World";
-    }
-    </script>
-
-<script>
-    function ostatni() {
-      document.getElementsByClassName("buttonC").innerHTML = "Hello World";
-    }
-    </script>
 
 <img src="obrazky/LIAN.jpg "alt="logo" class="center">
 
