@@ -19,7 +19,12 @@
     transform: translateY(4px);
   }
   
-  h1 {
-   text-align:center;
-   color: #00FF1A
-  }
+h1 {
+  text-align:center;
+  color: #00FF1A
+}
+
+body {
+  background-color: black;
+}
+
