@@ -4,3 +4,4 @@ let client = new Paho.MQTT.Client(
     'printgo' + Math.random()
 )
 document.getElementById("demo").innerHTML = client;
+
