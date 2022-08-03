@@ -1,24 +1,24 @@
 .button {
-    padding: 15px 25px;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: chartreuse;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-  }
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: chartreuse;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
   
-  .button:hover {background-color: chartreuse}
+.button:hover {background-color: chartreuse}
   
-  .button:active {
-    background-color: chartreuse;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-  
+.button:active {
+  background-color: chartreuse;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 h1 {
   text-align:center;
   color: #00FF1A
