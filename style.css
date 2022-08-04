@@ -1,4 +1,4 @@
-.button {
+.buttonA {
   padding: 15px 25px;
   font-size: 100 px;
   text-align: center;
@@ -11,6 +11,30 @@
   box-shadow: 0 9px #999;
 }
 
+.buttonB {
+  padding: 15px 25px;
+  font-size: 100 px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: chartreuse;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.buttonC {
+  padding: 15px 25px;
+  font-size: 100 px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: chartreuse;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
 .button:hover {background-color: chartreuse}
   
 .button:active {
