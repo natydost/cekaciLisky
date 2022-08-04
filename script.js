@@ -26,13 +26,19 @@ function onConnectionLost(responseObject) {
         console.log("onConnectionLost:" + responseObject.errorMessage);
     }
 }
+
+let cislo = 0 
+
 function tiskni() {
     console.log("")
-    message = new Paho.MQTT.Message("test");
+    cislo ++
+    message = new Paho.MQTT.Message(String(cislo));
             message.destinationName = "/in/queue/print";
             client.send(message);
     document.getElementsByClassName("button").innerHTML = "";
   }
+
+
 
   /* 
 
