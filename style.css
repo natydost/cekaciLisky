@@ -1,63 +1,100 @@
-.buttonA {
-  padding: 15px 25px;
-  font-size: 100 px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: rgb(0, 0, 0);
-  background-color: chartreuse;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+html {
+  box-sizing: border-box;
 }
 
-.buttonB {
-  padding: 15px 25px;
-  font-size: 100 px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: rgb(0, 0, 0);
-  background-color: chartreuse;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
-.buttonC {
-  padding: 15px 25px;
-  font-size: 100 px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: rgb(0, 0, 0);
-  background-color: chartreuse;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
 }
-.button:hover {background-color: chartreuse}
-  
-.button:active {
-  background-color: chartreuse;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+
+h1,
+{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
 }
 
 h1 {
-  text-align:center;
-  color: #00FF1A
-}
-
-body {background-color: black;}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
+  margin: 0;
+  font-size: 80px;
+  text-align: center;
+  color: #2D2926FF;
+  text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
 }
 
 
+nav{
+  color: chartreuse;
+  font-style: italic;
+
+}
+
+nav {
+  color: chartreuse;
+}
+
+
+
+
+
+/* Patička */
+.paticka {
+  padding: 0px ;
+  text-align: center;
+  background-color: #0099CC;
+  color: white;
+}
+
+
+/* Hlavička */
 .hlavicka {
-  background-color: #999;
+    padding: 150px 30px;
+    background-color: #0099CC ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
+
+
+/* Hlavní menu */
+.menu {
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+  color: #E94B3CFF;
+  background-color: #0099CC;
+  border-top: 1px solid #9c8175;
+  font-family:'PT Sans', sans-serif;
+}
+
+.menu button {
+  display: inline-block;
+  font-family: "PT Sans", sans-serif;
+  padding: 30px 30px;
+  font-size: 50px;
+  font-style: italic;
+  text-decoration: none;
+  color: white;
+  background-color: #66CCFF;
+}
+
+ .menu button:hover {
+  background-color: #003399;
+}
+
+.obrazek {
+  width: 300px;
+  height: 300px;
+}
+
+
